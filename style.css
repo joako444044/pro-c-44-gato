@@ -1,11 +1,16 @@
 #red{
     display:grid;
-    grid-template-rows: 33% 33% 33%;
-    grid-template-columns: 33% 33% 33%;
-    height: 90vh;
-    grid-gap: 10px;
-    
-}#red button{
+    grid-template-rows: 33% 34% 33%;
+    grid-template-columns: 33% 34% 33%;
+    gap: 10px;
+    height: calc(90vh - 70px);
+    box-sizing: border-box;
+    background-color: black;
+    }
+#red button{
     font-size: 70px;
-    
+}
+
+body{
+    margin: 0%;
 }
